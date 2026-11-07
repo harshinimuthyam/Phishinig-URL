@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhiShield | Real-Time Phishing Protection</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://img.icons8.com/ios-filled/50/00d2ff/shield.png" alt="logo" class="logo-icon">
+            PHISHIELD
+        </div>
+        <ul class="nav-links">
+            <li><a href="#scanner">Scanner</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn-try">Try Scanner</button>
+    </nav>
+
+    <section class="hero">
+        <div class="ai-badge">⚡ AI-Powered Cybersecurity</div>
+        <h1>Ganish <br><span class="gradient-text">Real-Time Phishing Protection</span></h1>
+        <p class="tagline">Detect. Prevent. Educate.</p>
+        <p class="hero-desc">Advanced AI models analyze URLs in milliseconds, protecting you from phishing attacks
+            before they reach your browser.</p>
+
+        <div class="hero-btns">
+            <button class="btn-gradient">🛡️ Try Live URL Scanner</button>
+            <button class="btn-outline">View Dashboard Demo →</button>
+        </div>
+
+        <div class="hero-shield-icon">
+            <div class="shield-outline"></div>
+        </div>
+    </section>
+
+    <section id="scanner" class="scanner-section">
+        <h2>Live URL Scanner</h2>
+        <p>Paste any URL to analyze it for phishing threats in real-time</p>
+        <div class="search-box">
+            <input type="text" id="urlInput" placeholder="https://example.com/login...">
+            <button id="scanBtn">Scan</button>
+        </div>
+        <div id="scanStatus"></div>
+    </section>
+
+    <section id="features" class="features">
+        <h2 class="section-title">Powerful Features</h2>
+        <p class="section-subtitle">Multi-layered AI defense system with 10+ detection engines working in parallel</p>
+
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="f-icon">🔒</div>
+                <h3>Real-Time Detection</h3>
+                <p>Analyze URLs in milliseconds before they load in your browser.</p>
+            </div>
+            <div class="feature-card">
+                <div class="f-icon">📊</div>
+                <h3>XGBoost URL Analysis</h3>
+                <p>Machine learning models trained on millions of phishing URLs.</p>
+            </div>
+            <div class="feature-card">
+                <div class="f-icon">🖼️</div>
+                <h3>CNN Layout Similarity</h3>
+                <p>Visual comparison against known legitimate website layouts.</p>
+            </div>
+            <div class="feature-card">
+                <div class="f-icon">🌐</div>
+                <h3>SSL & Domain Trust</h3>
+                <p>Certificate validation and domain reputation scoring.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <h2 class="section-title">How It Works</h2>
+        <div class="process-steps">
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <h3>User Browses</h3>
+                <p>You browse the web as usual, securely.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <h3>Extension Intercepts</h3>
+                <p>PhiShield intercepts URLs before they load.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <h3>Feature Extraction</h3>
+                <p>Key URL features are extracted for analysis.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">4</div>
+                <h3>AI Models Analyze</h3>
+                <p>Multiple AI models score the threat level.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">5</div>
+                <h3>Block & Warn</h3>
+                <p>Malicious sites are blocked instantly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="dashboard" class="dashboard-preview">
+        <h2 class="section-title">Dashboard Preview</h2>
+        <div class="stats-row">
+            <div class="stat-card">
+                <p>URLs Scanned</p>
+                <h3 class="counter" data-target="12847">0</h3>
+                <span class="trend">+12%</span>
+            </div>
+            <div class="stat-card">
+                <p>Threats Blocked</p>
+                <h3 class="counter" data-target="234">0</h3>
+                <span class="trend">+3%</span>
+            </div>
+            <div class="stat-card">
+                <p>Risk Score</p>
+                <h3>12%</h3>
+                <span class="trend stable">-5%</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-form">
+            <h2>Request a Demo</h2>
+            <div class="form-row">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <input type="text" placeholder="Organization">
+            <textarea placeholder="Tell us about your security needs..."></textarea>
+            <button class="btn-gradient">Request Demo</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 PHISHIELD. AI-Powered Phishing Protection.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
